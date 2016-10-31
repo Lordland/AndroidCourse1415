@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:orientation="vertical"
+    tools:context="com.example.practica2.MainActivity$PlaceholderFragment" >
+
+    <ImageButton
+        android:id="@+id/imageButtonEmpresa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:background="@drawable/boton_empresa"
+        android:scaleType="fitXY"
+        android:src="@drawable/boton_empresa" 
+       />
+
+    <ImageButton
+        android:id="@+id/imageButtonNoticias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:background="@drawable/boton_noticias"
+        android:scaleType="fitXY"
+        android:src="@drawable/boton_noticias"
+		/>
+
+    <ImageButton
+        android:id="@+id/imageButtonCatalogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:background="@drawable/boton_catalogo"
+        android:scaleType="centerCrop"
+        android:src="@drawable/boton_catalogo" 
+		/>
+
+    <ImageButton
+        android:id="@+id/imageButtonContacta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:background="@drawable/boton_contacta"
+        android:baselineAlignBottom="false"
+        android:cropToPadding="false"
+        android:scaleType="fitCenter"
+        android:src="@drawable/boton_contacta" 
+
+        />
+
+</LinearLayout>
+
