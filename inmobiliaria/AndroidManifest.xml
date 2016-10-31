@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.inmobiliaria"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".EmpresaActivity" >
+        </activity>
+        <activity
+            android:name=".NoticiasActivity"
+            android:label="@string/title_activity_noticias" >
+        </activity>
+        <activity
+            android:name=".PisoActivity"
+            android:label="@string/title_activity_piso" >
+        </activity>
+        <activity
+            android:name=".DetallesPisoActivity"
+            android:label="@string/title_activity_detalles_piso_activity" >
+        </activity>
+        <activity
+            android:name=".ContactaActivity"
+            android:label="@string/title_activity_contacta" >
+        </activity>
+    </application>
+
+</manifest>

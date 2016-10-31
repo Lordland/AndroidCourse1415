@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">inmobiliaria</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_noticias">NoticiasActivity</string>
+    <string name="title_activity_piso">PisoActivity</string>
+    <string name="title_activity_detalles_piso_activity">DetallesPisoACtivity</string>
+    <string name="title_activity_contacta">ContactaActivity</string>
+
+</resources>
